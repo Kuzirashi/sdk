@@ -14,6 +14,7 @@ import {
   Palm,
   Telos,
   xDai,
+  Ckb
 } from '../entities/Native'
 
 import { ChainId } from '../enums'
@@ -49,4 +50,5 @@ export const NATIVE: NativeMap = {
   [ChainId.FUSE]: Fuse.onChain(ChainId.FUSE),
   [ChainId.TELOS]: Telos.onChain(ChainId.TELOS),
   [ChainId.MOONBEAM]: Glmr.onChain(ChainId.MOONBEAM),
+  [ChainId.GODWOKEN_TESTNET]: Ckb.onChain(ChainId.GODWOKEN_TESTNET),
 }

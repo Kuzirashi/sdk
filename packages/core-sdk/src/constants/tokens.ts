@@ -140,6 +140,7 @@ export const WNATIVE: TokenMap = {
   [ChainId.FUSE]: new Token(ChainId.FUSE, WNATIVE_ADDRESS[ChainId.FUSE], 18, 'WFUSE', 'Wrapped Fuse'),
   [ChainId.TELOS]: new Token(ChainId.TELOS, WNATIVE_ADDRESS[ChainId.TELOS], 18, 'WTLOS', 'Wrapped Telos'),
   [ChainId.MOONBEAM]: new Token(ChainId.MOONBEAM, WNATIVE_ADDRESS[ChainId.MOONBEAM], 18, 'WGLMR', 'Wrapped Glimmer'),
+  [ChainId.GODWOKEN_TESTNET]: new Token(ChainId.GODWOKEN_TESTNET, WNATIVE_ADDRESS[ChainId.GODWOKEN_TESTNET], 18, 'WCKB', 'Wrapped CKB'),
 }
 
 export const SUSHI: ChainTokenMap = {
